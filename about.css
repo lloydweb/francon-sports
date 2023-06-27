@@ -1,0 +1,45 @@
+body{
+    border: 5px solid;
+    border-color: 800000;
+   
+}
+
+.about{
+    text-align: center;
+    font-size: 50px;
+
+}
+.about-brand{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-brand1{
+text-align: center;
+font-size: 25px;
+}
+
+
+.about-mission{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.about-mission1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.about-team{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-team1{
+    text-align: center;
+    font-size: 25px;
+      
+}

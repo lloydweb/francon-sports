@@ -1,0 +1,72 @@
+body{
+    border: 5px solid;
+    border-color: 800000;
+   
+}
+
+
+.contact{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.team-contact{
+
+}
+
+.contact-img, .contact-img2, .contact-img3{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 10%;
+    height: 25%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: #191973;
+    border-width: 10px;
+    border-bottom-color: #800000;
+    border-top-color: #800000;
+  
+}
+
+.contact-nze, .contact-ifenna, .contact-chuba{
+text-align: center;
+font-weight: bold;
+font-size: 40px;
+
+}
+
+.contact-ceo, .contact-md1, .contact-md2{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+
+.contact-ho, .contact-bo1, .contact-bo2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.contact-ad1, .contact-ad2, .contact-ad3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact-tel1, .contact-tel2, .contact-tel3{
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.map{
+    margin-left: 23%;
+    margin-top: 2%;
+    vertical-align: middle;
+}
