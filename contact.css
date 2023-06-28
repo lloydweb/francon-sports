@@ -69,4 +69,9 @@ font-size: 40px;
     margin-left: 23%;
     margin-top: 2%;
     vertical-align: middle;
+    
+}
+
+.map-img{
+    border: 2px solid;
 }
