@@ -133,30 +133,7 @@
               <span class="dot"></span> 
               <span class="dot"></span>
             </div>
-              
- 
-          <script>
-            let slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              let dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 2000); // Change image every 2 seconds
-            }
-            </script>
-
+    
             <div class="line1"></div>
             <div class="mission-container">
                 <p class="mission">Our Mission</p>
@@ -174,7 +151,7 @@
             
             <div class="video"><a>
             <video class="video-ad" controls autoplay>
-              <source src="./WhatsApp Video 2023-07-01 at 16.46.05.mp4" type="video/mp4">
+              <source src="./video/WhatsApp Video 2023-07-01 at 16.46.05.mp4" type="video/mp4">
             </video></a></div>
 
             <div class="line1"></div>
@@ -231,10 +208,10 @@
                      
       <footer>
 
-        <div class="social-media"><strong>SOCIAL MEDIA COMING SOON</strong>
+        <div class="social-media"><strong>SOCIAL MEDIA</strong>
           <button class="facebook">FACEBOOK</button>
           <button class="instagram">INSTAGRAM</button>
-          <button class="twitter">TWITTER</button>
+          <button class="twitter">TWITTER</button><strong> COMING SOON</strong>
         </div>
         <div class="copy-right">
             <br><br><p class="copy">Copyright © 2023 Francon Sports.</p>
@@ -242,7 +219,8 @@
         </div>
         
         <div class="line2"></div>
-      </footer> 
+      </footer>
+      <script src="index-slide.js"></script>
     </body>
   </html>
 </DOCTYPE>
