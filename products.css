@@ -6,9 +6,10 @@ body{
 .products{
     text-align: center;
     font-size: 50px;
-    margin-top: 8%;
+    margin-top: 100px;
     font-weight: bold;
     font-family:serif;
+    
 }
 
 .football{
@@ -26,14 +27,15 @@ body{
 }
 
 .football-image{
-    width: 150px;
-    height: 120px;
+    width: 80px;
+    height: 60px;
     display: inline-block;
    
 }
     
-.football-text1{
-        font-size: 20px;
+.football-text{
+        font-size: 25px;
+        
 }
 
 button{
