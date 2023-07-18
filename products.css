@@ -6,6 +6,9 @@ body{
 .products{
     text-align: center;
     font-size: 50px;
+    margin-top: 8%;
+    font-weight: bold;
+    font-family:serif;
 }
 
 .football{
@@ -31,4 +34,18 @@ body{
     
 .football-text1{
         font-size: 20px;
+}
+
+button{
+    width: auto;
+    height: 50px;
+    margin-top: 20px;
+    background-color:#800000;
+    color: black;
+    text-align: center;
+
+
+}
+li{
+    color: black;
 }

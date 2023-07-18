@@ -4,6 +4,14 @@ body{
  
 }
 
+.gallery{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 8%;
+    font-weight: bold;
+    font-family:serif;
+}
+
 .gallery-container{
     margin-bottom: 00px;
     padding: 3em;
@@ -73,8 +81,4 @@ body{
     color: black;
     text-align: center;
 }
-.gallery{
-    text-align: center;
-    font-size: 50px;
-    display: grid;
-}
+
