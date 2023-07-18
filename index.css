@@ -96,7 +96,7 @@ width: 100%;
     flex-shrink: 0px;
     position: relative;
     padding: 1em 2em;
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -290,6 +290,7 @@ width: 100%;
 .team-container{
     background-color: #800000;
     height: 35%;
+    margin-top: 20px;
 }
 
 .teamss{
@@ -313,6 +314,7 @@ width: 100%;
 
 .brand-container{
    height: auto;
+
 }
 .brand{
      font-size: 50px;
@@ -320,13 +322,14 @@ width: 100%;
       text-align: center;
       margin-top: 10px;
       
+      
 }
 .brand-text{
       font-size: 25px;
        color: black;
        text-align: center;
        margin-top: 10px;
-
+       margin-bottom: 50px;
 }
 
 
@@ -349,7 +352,7 @@ margin-right: 2%;
 }
 
 .facebook, .instagram, .twitter{
-  font-size: 20px;
+  font-size: 10px;
   margin-top: 20px;
   margin-bottom: -10px;
   font-weight: bold;
