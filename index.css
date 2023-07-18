@@ -9,7 +9,7 @@ body{
 .logo1{
   margin-top: 20px;
     float: left;
-    margin: 0 10px 0 0;
+    magin: 0 10px 0 0;
     cursor: pointer;
     height: 70px;
     width: 50px;
@@ -34,9 +34,7 @@ body{
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
     background-color: #191973;
- 
     border: 0;
-    font-size: 11px !important;
     letter-spacing: 1px;
    
   }
@@ -292,7 +290,7 @@ width: 100%;
 
 .team-container{
     background-color: #800000;
-    height: 35%;
+    height: 40%;
     margin-top: 20px;
 }
 
