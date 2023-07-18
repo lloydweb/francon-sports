@@ -7,7 +7,7 @@ body{
 }
 
 .logo1{
-    max-width: 300px;
+  margin-top: 20px;
     float: left;
     margin: 0 10px 0 0;
     cursor: pointer;
@@ -37,7 +37,7 @@ body{
  
     border: 0;
     font-size: 11px !important;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
    
   }
 
@@ -103,11 +103,11 @@ width: 100%;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  mx-width: 1000px;
   position: relative;
   margin:auto;
-  margin-top: 10%;
-  margin-left: 20%;
+  margin-top: 12%;
+  margin-left: 10%;
   padding: 3em 3em;
 
  
