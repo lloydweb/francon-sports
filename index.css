@@ -19,7 +19,7 @@ body{
 
 
 .moto{
-    font-size: 15px;
+    font-size: 10px;
     color: #f7f5f5;
     float: right;
     margin-right: 40px;
@@ -49,10 +49,11 @@ body{
   }
   .navbar-brand { 
     color: #cf0000 !important;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 10px;
     font-family:serif;
+    
   }
   .navbar-nav li a:hover {
     color: white !important;
@@ -69,7 +70,7 @@ body{
 .f{
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   margin-right: 20px;
   margin-top: 20px;
   
@@ -203,8 +204,8 @@ margin-top: 20px;
 }
 .video-ad{
     margin-bottom: 20px;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
  
 }
 .line1{
