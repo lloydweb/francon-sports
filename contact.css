@@ -65,12 +65,14 @@ font-size: 40px;
 }
 
 .map{
-    margin-left: 23%;
+    margin-left: 450px;
     margin-top: 2%;
     vertical-align: middle;
+    
     
 }
 
 .map-img{
     border: 2px solid;
+    margin-bottom: 20px;
 }
