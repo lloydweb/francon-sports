@@ -78,8 +78,8 @@ font-size: 40px;
     border: 2px solid;
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
     max-height: 300px;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     margin-bottom: 200px;
 }
 
