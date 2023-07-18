@@ -64,30 +64,26 @@ font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.map{
-    
-    margin-top: 2%;
+.map-cont{
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Horizontal centering */
     align-items: center; /* Vertical centering */
-    height: 800px; /* Set the desired height for the container */
-   
+    height: 400px;
     
     
 }
 
 .map-img{
     border: 2px solid;
-    margin-bottom: 20px; 
-    margin-top: -250px;
-    height: 500px ;
-    width: 1000px;
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 300px;
+    height: 600px;
+    width: 600px;
+    margin-bottom: 200px;
 }
 
 .map-text{
-    text-align: center;
-    display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center;
-    margin-top: 30px;
+    font-size: 20px; 
+    margin-top: 250px;
 }
