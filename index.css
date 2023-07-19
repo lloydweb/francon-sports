@@ -47,10 +47,10 @@ body{
   }
   .navbar-brand { 
     color: #cf0000 !important;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 10px;
-    font-family:serif;
+    font-family:Arial, Helvetica, sans-serif;
     
   }
   .navbar-nav li a:hover {
