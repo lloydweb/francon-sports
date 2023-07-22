@@ -175,19 +175,48 @@ width: 100%;
   background-color: #191973;
   height: auto;
   margin-bottom: -10px;
-}
-.mission{
-   font-size: 50px;
-    color: #f1f1f1;
-    text-align: center;
- 
 
+  display: flex;
+  align-items: center;
 }
 .mission-text{
-    font-size: 25px;
+   font-size: 50px;
+   color: #f1f1f1;
+    padding: 20px;
+    flex: 3;
+     padding: 20px;
+
+}
+.mission-text p{
+    font-size: 20px;
      color: #f1f1f1;
-     text-align: center;
+  
+
     
+    
+}
+
+.mission-image{
+  flex: 1;
+     padding: 20px;
+     max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .mission-container {
+      flex-direction: column; /* Stack the items vertically */
+  }
+}
+
+.slide-in {
+  opacity: 0; /* Start with opacity set to 0 */
+  transform: translateX(-100%); /* Slide in from the left */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Add transition for smooth animation */
+}
+
+.show-slide-in {
+  opacity: 1; /* Change opacity to 1 to show the element */
+  transform: translateX(0); /* Slide back to its original position */
 }
 
 .advert{
@@ -218,6 +247,11 @@ height: 20px;
 width: 100%;
 }
 
+
+.teamss{
+  text-align: center;
+  font-weight: bold;
+}
 
  .container2{
     margin-bottom: 0px;
@@ -291,49 +325,115 @@ width: 100%;
 
 .team-container{
     background-color: #800000;
-    height: 40%;
-    margin-top: 20px;
+    height: auto;
+    margin-bottom: -10px;
+
+  display: flex;
+  align-items: center;
 }
 
-.teamss{
-    font-size: 50px;
-    color:black;
-    text-align: center;
-   
-  
 
-   
- 
-}
 .team-text{
-    margin-top: 20px;
-      font-size: 25px;
-       color: #f1f1f1;
-       text-align: center;
+    font-size: 50px;
+    color: #f1f1f1;
+    padding: 20px;
+    flex: 3;
+       
    
+}
+
+.team-text p{
+  font-size: 20px;
+     color: #f1f1f1;
+
+}
+
+.team-img{
+  flex: 1;
+     padding: 20px;
+     max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .team-container {
+      flex-direction: column;
+  }
 }
 
 
 .brand-container{
    height: auto;
+   display: flex;
+  align-items: center;
+  margin-bottom: 50px;
 
 }
 .brand{
      font-size: 50px;
       color: black;
-      text-align: center;
-      margin-top: 10px;
+
+    
       
       
 }
 .brand-text{
       font-size: 25px;
        color: black;
-       text-align: center;
-       margin-top: 10px;
-       margin-bottom: 50px;
+     flex: 3;
+     padding: 20px;
+      
 }
 
+.brand-text p{
+  font-size: 20px;
+}
+
+.brand-img{
+  flex: 1;
+     padding: 20px;
+     max-width: 100%;
+  
+    
+}
+
+
+@media (max-width: 600px) {
+  .brand-container {
+      flex-direction: column;
+  }
+}
+
+.container-fluid {
+  pading: 60px 50px;
+}
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
 
 footer{
     background-color: #800000;
