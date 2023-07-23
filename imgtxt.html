@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text and Image Layout</title>
+    <style>
+        /* Style for header */
+        h1 {
+            text-align: center;
+        }
+
+        /* Style for the container holding text and image */
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Style for the text */
+        .content-container p {
+            max-width: 400px;
+            margin-right: 20px;
+        }
+
+        /* Style for the image */
+        .content-container img {
+            max-width: 300px;
+            max-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Header</h1>
+
+    <!-- Container for text and image -->
+    <div class="content-container">
+        <!-- Text -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget tristique est. Fusce volutpat,
+            justo quis fermentum feugiat, nibh dui consequat elit, vel dignissim purus felis vel enim.
+        </p>
+
+        <!-- Image -->
+        <img src="image.jpg" alt="Image">
+    </div>
+</body>
+</html>

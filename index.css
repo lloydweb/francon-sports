@@ -124,7 +124,7 @@ width: 100%;
   bottom: -25px;
   width: 100%;
   text-align: center;
-  margin-left: -18%;
+  margin-left: -8%;
 
 }
 
@@ -200,6 +200,7 @@ width: 100%;
   flex: 1;
      padding: 20px;
      max-width: 100%;
+     
 }
 
 @media (max-width: 600px) {
