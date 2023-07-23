@@ -13,38 +13,40 @@ body{
     margin-top: 100px;
     flex-shrink: 0;
 }
-.about-brand{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
+
+.about-cont{
+   
+    height: auto;
+    margin-bottom: -10px;
+
+  display: flex;
+  align-items: center;
+}
+
+
+.about-txt{
+    font-size: 20px;
+   
+    padding: 20px;
+    flex: 3;
+       
+   
+}
+
+.about-txt p{
+  font-size: 20px;
     
-}
-.about-brand1{
-text-align: center;
-font-size: 25px;
-}
-
-
-.about-mission{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
 
 }
 
-.about-mission1{
-    text-align: center;
-    font-size: 25px;
+.about-image{
+  flex: 1;
+     padding: 20px;
+     max-width: 100%;
 }
 
-.about-team{
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.about-team1{
-    text-align: center;
-    font-size: 25px;
-      
+@media (max-width: 600px) {
+  .about-cont {
+      flex-direction: column;
+  }
 }
