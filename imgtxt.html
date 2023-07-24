@@ -1,6 +1,84 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Images and Text - Responsive</title>
+    <style>
+        /* Basic styling for the container */
+        .container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            width: 30%;
+            margin: 10px;
+        }
+
+        /* Styling for image */
+        .image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Flex container for layout */
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                width: 48%;
+            }
+        }
+
+        /* Media query for even smaller screens */
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <!-- First Image and Text -->
+        <div class="container">
+            <img src="./bgimg/nze.jpg" alt="Image 1" class="image">
+            <p>This is some text under Image 1.</p>
+        </div>
+
+        <!-- Second Image and Text -->
+        <div class="container">
+            <img src="./bgimg/ifenna.jpg" alt="Image 2" class="image">
+            <p>This is some text under Image 2.</p>
+        </div>
+
+        <!-- Third Image and Text -->
+        <div class="container">
+            <img src="./bgimg/chuba.jpg" alt="Image 3" class="image">
+            <p>This is some text under Image 3.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
     <title>Images and Text</title>
     <style>
         /* Basic styling for the container */
