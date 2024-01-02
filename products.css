@@ -20,8 +20,8 @@ body{
 
 /* Style for the individual image and caption */
 .image-container {
-     width: 200px;
-      height: 200px;
+     width: 100px;
+      height: 100px;
       border: 3px solid #191973;
       margin: 10px;
       padding: 10px;
@@ -29,13 +29,13 @@ body{
 }
 
 .image-container img {
-    height: 150px;
-    max-width: 100%;
+    height: 50px;
+    max-width: 50%;
 
 }
 
 .image-container figcaption {
     margin-top: 5px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 11px;
 }
